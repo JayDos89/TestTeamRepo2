@@ -1,4 +1,8 @@
-﻿namespace Studio
+﻿using System;
+using System.Threading;
+
+
+namespace Studio
 {
     internal class Program
     {
@@ -27,6 +31,32 @@
             Console.WriteLine("Jays Turn!!");
             Console.ReadLine();
 
+               {
+       for (int i = 0; i < 10; i++)
+       {
+           Console.WriteLine("-+-");
+       }
+       Console.WriteLine("Press enter");
+       Console.ReadLine();
+       
+       for (int j = 0; j < 10; j++)
+       {
+           Console.WriteLine(":(");
+       }
+  
+        Console.WriteLine(":)");
+        Thread.Sleep(500);
+        Console.WriteLine(":(");
+        Thread.Sleep(500);
+        Console.WriteLine(":)");
+        Thread.Sleep(500);
+        Console.WriteLine(":(");
+        Thread.Sleep(500);
+        Console.WriteLine(":)");
+        Thread.Sleep(500);
+        Console.WriteLine(":(");
+        Thread.Sleep(500);
+        Console.ReadLine();
         }
     }
 }
