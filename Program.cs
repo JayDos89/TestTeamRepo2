@@ -7,7 +7,7 @@
 
             Console.WriteLine("Hello, my name is Hazel");
             // Hazels Code line    
-            for (i = 1; i <= 10; i++)
+            for (int i = 1; i <= 10; i++)
             {
                 Console.WriteLine(i);
             }
